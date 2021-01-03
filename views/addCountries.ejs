@@ -1,0 +1,24 @@
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
+<html>
+
+<body>
+    <h1>Add Country</h1>
+    <form action="/addCountry" method="POST">
+        <label>Country Code -</label>
+        <input type="text" name="co_code"><br><br>
+        <label>Country Name -</label>
+        <input type="text" name="co_name"><br>
+        <label>Country Details</label>
+        <textarea type="text" name="co_details"></textarea>
+        <input type="submit" value="Add">
+    </form>
+</body>
+<a href="/">Home</a>
+
+</html>
